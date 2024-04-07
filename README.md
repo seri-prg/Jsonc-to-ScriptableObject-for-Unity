@@ -13,7 +13,7 @@ json内に生成するScriptableObjectのクラスを記述する事ができま
 
 ●使い方
 UnityのメニューからWindow > Json 2 ScriptableObject Editorを選択
-出力するjsoncファイルの入っているフォルダ名を選択して下さい。
+ダイアログが表示されるので、出力したいjsoncファイルの入っているフォルダ名のボタンを選択して下さい。
 
 ●初期設定
 Assets/Script/Json2Scriptable/Editor/J2SWindow.cs内の以下を設定して下さい。

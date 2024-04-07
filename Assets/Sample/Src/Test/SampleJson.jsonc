@@ -1,0 +1,35 @@
+{
+	"class" : "SampleObject",	// 使用するScriptableObject
+	"sampleName" : "サンプル", // サンプルの名前
+	"value" : 1234,				// 数値の設定
+
+	// 基底クラスの配列
+	"itemList": [
+		{
+			"class" : "ItemString",		// 使用するクラス
+			"name" : "文字列",			// 基底クラスのフィールド設定
+			"strValue" : "文字列テスト"	// 文字列の値
+		},
+		{
+			"class" : "ItemInt",		// 使用するクラス
+			"name" : "数値",			// 基底クラスのフィールド設定
+			"intValue" : 5678,			// 数値設定
+			"dummy" : "aaaaaaaaaa"		// ScriptableObjectに無い定義は無視されます。
+		}
+
+		// 複数行の一括コメント化もできます。
+		/*
+		,
+		{
+			"class" : "ItemInt",		// 数値の要素
+			"name" : "数値",			// 基底クラスのフィールド設定
+			"intValue" : 5678			// 数値設定
+		},
+		{
+			"class" : "ItemInt",		// 数値の要素
+			"name" : "数値",			// 基底クラスのフィールド設定
+			"intValue" : 5678			// 数値設定
+		}
+		*/
+	]
+}

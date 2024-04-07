@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3835fd3cf79c7cb48a45d4fdc3711126, type: 3}
+  m_Name: SampleJson
+  m_EditorClassIdentifier: 
+  sampleName: "\u30B5\u30F3\u30D7\u30EB"
+  value: 1234
+  itemList:
+  - rid: 3452197303421501464
+  - rid: 3452197303421501465
+  references:
+    version: 2
+    RefIds:
+    - rid: 3452197303421501464
+      type: {class: ItemString, ns: , asm: Assembly-CSharp}
+      data:
+        name: "\u6587\u5B57\u5217"
+        strValue: "\u6587\u5B57\u5217\u30C6\u30B9\u30C8"
+    - rid: 3452197303421501465
+      type: {class: ItemInt, ns: , asm: Assembly-CSharp}
+      data:
+        name: "\u6570\u5024"
+        intValue: 5678
